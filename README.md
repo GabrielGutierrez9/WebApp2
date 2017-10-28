@@ -1,1 +1,2 @@
 # WebApp2
+This is a web application in progress for my Database project. Our group database project was based on a computer parts store. The app lets employees Search for other stores based on store ID, city, state, order hardware for the store, find hardware in stores, find a customer transaction by transaction ID, date or customer ID, register new customers, search for customers, update customer information, register a new employee, search for an employee and update an employee.  The initial pages are complete now working on the front end to query the database. 
