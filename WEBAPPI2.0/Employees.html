@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<!-- this form shows employee details -->
+
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title> Employees </title>
+		<style type = "text/css">
+
+		.background_image{position: absolute;
+				  height: 100%;
+				  width: 100%;
+				  z-index: -1;}
+		
+		
+		</style>
+			
+	</head>
+
+	
+	<body>
+		<p><img src = "background2.jpg" class = "background_image"/></p>
+		<p class = "text"; style = "width: 100%; text-align: center; color: white; font-size: 20pt"> Employees </p>
+		
+		<p style = "position: absolute; top: 400px; left: 400px; display: inline-block">
+		<button style = "background-color: red; color: white; font-size: 24px; border-radius: 12px" onclick =  				"displayResults()"> Register employee</button>
+		<button style = "background-color: green; color: white; font-size: 24px; border-radius: 12px" onclick =  				"displayResults()"> Search for Employee</button>
+		<button style = "background-color: blue; color: white; font-size: 24px; border-radius: 12px" onclick =  				"displayResults()"> Update Employee </button>
+		<p>
+			<p style = "position: absolute; top: 500px; left: 600px">
+				<a href = "DBMenu1.1.html">
+				<img src = "MainMenu.png" height = "256" width = "256" />
+				</a>
+		</p>
+		</p>
+				
+		<p id =  "choice"></p>
+
+		<script>
+		function displayResults()
+			{
+				document.getElementById("choice").innerHTML = "    ";
+			}
+		</script>
+
+	</body>
+</html>

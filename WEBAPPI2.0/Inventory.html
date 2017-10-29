@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<!-- this form shows Inventory details -->
+
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title> Inventory</title>
+		<style type = "text/css">
+
+		.background_image{position: absolute;
+				  height: 100%;
+				  width: 100%;
+				  z-index: -1;}
+		
+		
+		</style>
+			
+	</head>
+
+	
+	<body>
+		<p><img src = "background2.jpg" class = "background_image"/></p>
+
+		<p style = "width: 100%; text-align: center; color: white;font-size: 20pt"> Inventory </p>
+		
+		<p style = "position: absolute; top: 400px; left: 550px">
+
+		<button style = "background-color: red; color: white; font-size: 24px; border-radius: 12px" onclick = 						"displayResults()"> Order hardware</button>
+		
+		<button style = "background-color: green; color: white; font-size: 24px; border-radius: 12px" onclick = 						"displayResults()"> Find hardware</button>
+
+		<p>
+			<p style = "position: absolute; top: 550px; left: 600px">
+				<a href = "DBMenu1.1.html">
+				<img src = "MainMenu.png" height = "256" width = "256" />
+				</a>
+		</p>	
+		</p>
+		
+		
+
+		<script>
+		function displayResults()
+			{
+				window.prompt( "Please enter your name" );
+			}
+		</script>
+
+	</body>
+</html>

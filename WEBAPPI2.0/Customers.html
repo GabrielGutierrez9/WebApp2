@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<!-- this form shows customer details -->
+
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title> Customers </title>
+		<style type = "text/css">
+
+		.background_image{position: absolute;
+				  height: 100%;
+				  width: 100%;
+				  z-index: -1;}
+		
+		
+		</style>
+			
+	</head>
+
+	
+	<body>
+		<p><img src = "background5.jpg" class = "background_image"/></p>
+		<p style = "width: 100%; text-align: center; font-size: 20pt; color: white"> Customers </p>
+		
+		<p style = "position: absolute; top: 400px; left: 450px; display: inline-block">
+		<button style = "background-color: red; color: white; font-size: 24px; border-radius: 12px" onclick =  				"displayResults()"> Register customer</button>
+		<button style = "background-color: green; color: white; font-size: 24px; border-radius: 12px" onclick =  				"displayResults()"> Search for customer</button>
+		<button style = "background-color: blue; color: white; font-size: 24px; border-radius: 12px" onclick =  				"displayResults()"> Update customer</button>
+		
+		<p>
+			<p style = "position: absolute; top: 550px; left: 600px">
+				<a href = "DBMenu1.1.html">
+				<img src = "MainMenu.png" height = "256" width = "256" />
+				</a>
+		</p>
+		</p>
+				
+		<p id =  "choice"></p>
+
+		<script>
+		function displayResults()
+			{
+				document.getElementById("choice").innerHTML = "    ";
+			}
+		</script>
+
+	</body>
+</html>
